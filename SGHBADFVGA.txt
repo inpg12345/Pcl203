@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int poziom, x, y;
+
+    printf("Podaj liczbe poziomow:\n");
+    scanf("%d", &poziom);
+    
+    for(x=0; x<poziom; x++)
+        {
+        for(y=0; y<poziom-x-1; y++)
+            {
+            putchar(' ');
+            }
+        for(y=0; y<2*x+1; y++)
+            {
+            putchar('*');
+            }
+        putchar('\n');
+        }
+}

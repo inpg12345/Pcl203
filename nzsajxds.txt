@@ -1,0 +1,20 @@
+ 	
+Zobacz podsumowanie
+
+#include <stdio.h>
+
+#define KOLUMNA 11
+#define WIERSZ 11
+
+int main()
+{
+    int x, i;
+    for(x=1; x<WIERSZ; x++)
+        {        
+        for(i=1;i<KOLUMNA; i++)
+            {
+            printf("%2d ", i*x);
+            }
+        printf("\n");
+        }
+}

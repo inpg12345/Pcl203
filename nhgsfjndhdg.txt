@@ -1,0 +1,28 @@
+#include <stdio.h>
+#define ROW 4
+#define COL 3
+
+int main()
+{
+    int x, y;
+    int macierz[ROW][COL];
+    int macierz1[ROW][COL]={{1,2,3},{4,5,6},{6,5,4},{3,2,1}};
+    int macierz2[ROW][COL]={{2,1,0},{2,1,0},{1,2,3},{1,2,3}};
+    
+    for(x=0; x<ROW; x++)
+    {
+        for(y=0; y<COL; y++)
+        {
+            macierz[x][y]=macierz1[x][y]+macierz2[x][y];
+        }
+    }
+    for(x=0; x<ROW; x++)
+    {
+        for(y=0; y<COL; y++)
+        {
+            printf("%d ", macierz[x][y]);
+        }
+        putchar('\n');
+    }
+    return 0;
+}

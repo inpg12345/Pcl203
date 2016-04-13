@@ -1,0 +1,24 @@
+ 	
+Zobacz podsumowanie
+
+#include <stdio.h>
+
+main()
+{
+int srednia, a=75, b=9;
+
+srednia=a/b;
+printf("Sredni czas na wykonanie jednego zadania wynosi %d\n:", srednia);
+}
+
+ 
+
+#include <stdio.h>
+
+main()
+{
+float srednia, a=75, b=9;
+
+srednia=a/b;
+printf("Sredni czas na wykonanie jednego zadania wynosi %f\n:", srednia);
+}

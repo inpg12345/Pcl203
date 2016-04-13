@@ -1,0 +1,22 @@
+#include <stdio.h>
+#define ROZMIAR 128
+
+int main()
+{
+    printf("Napisz tekst: \n");
+    char tab[ROZMIAR];
+    int i, j;
+    fgets(tab, ROZMIAR, stdin);
+    for(i=0; tab[i]!='\0'; i++)
+    {
+        if(tab[i]=='a')
+        {
+            for(j=i; tab[j]!='\0';j++)
+                {
+                tab[j]=tab[j+1];
+                }
+                i--;
+        }
+    }
+    puts(tab);
+}
