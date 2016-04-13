@@ -1,21 +1,16 @@
-#include <stdio.h>
-#define ROZMIAR 128
-
-int main()
-{
-    printf("Napisz tekst: \n");
-    char tab[ROZMIAR];
-    int i, j;
-    fgets(tab, ROZMIAR, stdin);
-    for(i=0; tab[i]!='\0'; i++)
+#include <stdio.h>(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)
+#define ROZMIAR 128(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)
+(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)
+int main()(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)
+    printf("Napisz tekst: \n");(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)
+    char tab[ROZMIAR];(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)
+    fgets(tab, ROZMIAR, stdin);(średnik)(średn(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)ik)((średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)
     {
-        if(tab[i]=='a')
-        {
-            for(j=i; tab[j]!='\0';j++)
-                {
-                tab[j]=tab[j+1];
-                }
-                i--;
+        if(tab[i]=='a')(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)
+            for(j=i; tab[j]!='\0';j++)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)
+                {(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)
+                }(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)(średnik)
+                i--;(średnik)(średnik)
         }
     }
     puts(tab);
