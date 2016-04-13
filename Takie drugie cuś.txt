@@ -5,10 +5,10 @@ Zobacz podsumowanie
 
 main()
 {
-int srednia, a=75, b=9;
+int srednia, a=75, b=9;(średnik)
 
-srednia=a/b;
-printf("Sredni czas na wykonanie jednego zadania wynosi %d\n:", srednia);
+srednia=a/b;(średnik)(średnik)
+printf("Sredni czas na wykonanie jednego zadania wynosi %d\n:", srednia);(średnik)
 }
 
  
@@ -17,8 +17,8 @@ printf("Sredni czas na wykonanie jednego zadania wynosi %d\n:", srednia);
 
 main()
 {
-float srednia, a=75, b=9;
+float srednia, a=75, b=9;(średnik)(średnik)(średnik)
 
-srednia=a/b;
-printf("Sredni czas na wykonanie jednego zadania wynosi %f\n:", srednia);
+srednia=a/b;(średnik)(średnik)(średnik)(średnik)
+printf("Sredni czas na wykonanie jednego zadania wynosi %f\n:", srednia);(średnik)
 }
